@@ -1,0 +1,212 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f7f7f7;
+  }
+
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    
+  }
+  
+  .logo-placeholder {
+    /* You can add styling to make it look more professional */
+        padding: 5px;
+      }
+  
+      .logo-placeholder img {
+        width: 100px;
+        height: 100px;
+      /* You can add styling to make it look more professional */
+      }
+  .language-selection {
+    margin-right: 10px;
+  }
+  
+  .language-selection select {
+    padding: 5px;
+  }
+  
+  .social-icons {
+    display: flex;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+  }
+  
+  .social-icons img {
+    max-width: 30px; /* Adjust the size as needed */
+  }
+  
+      nav {
+        background-color: #444;
+        padding: 10px;
+        text-align: center;
+      }
+  
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px;
+        margin: 0 10px;
+        font-size: 16px;
+      }
+
+  section {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .card1 {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background:url(s-l1200.jpg);
+    transition: transform 0.3s ease-in-out;
+    color: white;
+  }
+  .card1:hover{background-position: right;
+  transition: 1s;}
+
+
+ 
+  .card2 {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background:url(Commercial\ Electrical.png) 
+    ;background-position: top; transition: transform 0.3s ease-in-out;
+    color: white;
+  }
+
+  
+
+
+  .card2:hover{background-position: right;
+  transition: 1s;
+}
+
+  .card3 {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+    background:url(Industrial\ Electrical.jpg);
+    color: white;
+  }
+  .card3:hover{background-position: right;
+  transition: 1s;}
+
+  .card4 {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease-in-out;
+    background:url(Action-Services.jpg);
+    color: white;
+  }
+  .card4:hover{background-position: right;
+  transition: 1s;}
+h3{text-align: center;}
+ 
+
+
+
+  button {
+    background-color: #f1f1f1;
+    color: #525252;
+    border: none;
+    padding: 12px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+    
+  
+  }
+
+  button:hover {
+    background-color: #2e2e2e;
+    border-radius: 25px;
+    transition: 1s;
+    color: #ffffff;
+    padding: 12px 10px;
+  }
+
+
+footer {
+    color: #000000;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+    transition: height 0.5s ease-in-out; /* Added transition property */
+    overflow: hidden; /* Hide the extra content initially */
+    cursor: pointer;
+   
+  }
+ 
+  footer:hover {
+    padding-top: 50px;
+    transition:  1s ease-in-out;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+  }
+
+  .logo-container {
+    display: flex;
+  }
+
+  .logo {
+    max-width:100px; /* Adjust the size as needed */
+    margin-right: 20px; /* Add some space between the logos */
+    max-height: 50px;
+  }
+
+  .expanded-content {
+    max-height: 500px; /* Set the initial height of the expanded content */
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out; /* Added transition property */
+  }
+  .expanded-content a {
+   text-decoration: none
+   ;color: red;
+  }
+  .expanded-content img{height: 20px;width: 20px;}
